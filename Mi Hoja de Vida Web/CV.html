@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CV.css">
+    <title>Hoja de Vida</title>
+</head>
+<body>
+    <header class="presentacion">
+        <img class="Foto" src="Imágenes/yo.jpg" alt="Foto de Perfil">
+        <h1><span>Julián Metke C.</span></h1>
+        <img class="ilustracion" src="Imágenes/3.png" alt="Ilustración">
+    </header>
+
+    <div class="clearfix"></div>
+
+    <main>
+        <h2><span>Tecnologo en Radiología e Imágenes Diagnosticas</span></h2>
+
+        <nav class="barra">
+            <ul class="lista">
+                <li class="topicos">Estudios</li>
+                <li class="topicos">Experiencia Laboral</li>
+                <li class="topicos">Equipos Trabajados</li>
+                <li class="topicos">Capacitaciones</li>
+                <li class="topicos">Contacto</li>
+            </ul>
+        </nav>
+
+        <section id="perfil">
+            <p>
+                Profesional en el área de la salud, proactivo, apto para el trabajo en equipo y con fuertes habilidades organizativas e interpersonales, orientado a la atención de usuarios en los servicios de salud y comprometido con ofrecer una atención de calidad humanizada.
+            </p>
+            <br>
+            <p>
+                Siempre en la búsqueda de aprender nuevos conocimientos, desarrollar nuevas habilidades y crecer profesionalmente. Dispuesto también a escuchar y resolver inquietudes y dudas tanto de cliente interno como externo.
+            </p>
+        </section>
+    </main>
+
+    <header class="titulo1"><h3>Estudios</h3></header>
+    <article id="estudios">
+        <figure>
+            <a href="#"><img src="Imágenes/UNAD Logo.png" alt="UNAD" id="UNAD"></a>
+            <figcaption>Universidad Nacional a Distancia (UNAD)</figcaption>
+            <p>Ingeniería Multimedia</p>
+            <p>En Curso</p>
+        </figure>
+        <figure>
+            <a href="#"><img src="Imágenes/Logo Shaio.jpg" alt="Radioprotección" class="Shaio"></a>
+            <figcaption> Curso de Radioprotección / Fundación Clínica Shaio</figcaption>
+            <p>2019</p>
+        </figure> 
+        <figure>
+            <a href="#"><img src="Imágenes/Logo_Areandina.jpg" alt="FUAA" id="FUAA"></a>
+            <figcaption>Fundación Universitaria del Área Andina</figcaption>
+            <p>Tecnologgía en Radiología e Imágenes Diagnosticas</p>
+            <p>2011-2014</p>
+        </figure>                       
+    </article>
+
+    <header class="titulo2"><h3>Equipos Trabajados</h3></header>
+    <article class="equiposImagenes">
+        <section id="equiposMedicos">
+            <figure>
+                <img src="Imágenes/Aquilion One.jpg" alt="Tomografia">
+                <figcaption>Tomografo Aquilion One / Canon</figcaption>
+            </figure>
+            <figure>
+                <img src="Imágenes/Vantage Elan.png" alt="Resonancia">
+                <figcaption>Resonador Elan Vantage 1.5T / Canon</figcaption>
+            </figure>
+            <figure>
+                <img src="Imágenes/Agfa.jpg" alt="PACS">
+                <figcaption>Sistema de Almacenamiento de Imágenes Diagnosticas <br> Enterprise Imaging / AGFA</figcaption>
+            </figure>
+        </section>
+        <section id="video">
+            <video src="Imágenes/Deep Intelligence - Aquilion ONE _ Prism Edition.mp4" muted="true" autoplay controls width="250">Video Demostrativo</video>
+        </section>
+        <section id="imagenesEstudios">
+            <figure>
+                <img src="Imágenes/Estudio 1.jpg" alt="estudio1">
+            </figure>
+            <figure>
+                <img src="Imágenes/Estudio 2.jpg" alt="estudio2">
+            </figure>
+            <figure>
+                <img src="Imágenes/Estudio 3.jpg" alt="estudio3">
+            </figure>
+            <figure>
+                <img src="Imágenes/Estudio 4.jpg" alt="estudio4">
+            </figure>
+            <figure>
+                <img src="Imágenes/Estudio 5.jpg" alt="estudio5">
+            </figure>
+        </section>
+    </article>
+
+    <div class="clearfix"></div>
+
+    <header class="titulo3"><h3>Capacitaciones</h3></header>
+    <article class="certificados">
+        <figure>
+            <img src="Imágenes/Logo Shaio.jpg" alt="certificado1" class="Shaio">
+            <figcaption>Curso Atención en Soporte Vital Básico</figcaption>
+        </figure>
+        <figure>
+            <img src="Imágenes/Logo Sena.png" alt="certificado2" id="Sena">
+            <figcaption>Curso English Discoveries Básico I y II</figcaption>
+        </figure>
+        <figure>
+            <img src="Imágenes/Logo ARIDB.jpg" alt="certificado3" id="ARIDB">
+            <figcaption>XX Simposio ARIDB <br> "Las imágenes diagnósticas en el rol interdisciplinario actual"</figcaption>
+        </figure>
+    </article>
+
+    <header class="titulo4"><h3>Contacto</h3></header>
+    <article class="contacto">
+        <figure>
+            <img src="Imágenes/Ilustra.jpg" alt="Ilustración">
+        </figure>
+        
+        <nav>
+            <form>
+                <label>Nombre:</label>
+                <input type="text" id="Usuario" name="Nombre" required/>
+                <label>Correo</label>
+                <input type="email" id="Correo" name="correo" required/>
+                <label>Comentarios</label>
+                <input type="textarea" id="texto" name="Comentarios" required/>
+                <label>Enviar archivos</label>
+                <input type="file" id="archivo" name="Archivos">
+                <input type="submit" value="Enviar" />
+            </form>
+        </nav>
+    </article>
+
+    <header class="titulo5"><h3>Redes Sociales</h3></header>
+    <article class="redesSociales">
+        <figure>
+            <a href="https://www.instagram.com/metkecastillo/?hl=es%7D"><img src="Imágenes/Icono Instagram.png" alt="Instagram"></a>
+            <figcaption>Instagram</figcaption>
+        </figure>
+        <figure>
+            <a href="https://www.linkedin.com/in/julian-metke-tec/"><img src="Imágenes/Icono Linkedin.png" alt="Linkedin"></a>
+            <figcaption>Linkedin</figcaption>
+        </figure>
+    </article>
+
+    <footer><h3>2024 / Julián Metke</h3></footer>
+</body>
+</html>

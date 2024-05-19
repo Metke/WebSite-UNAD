@@ -1,0 +1,334 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+*{
+    font-family: roboto-regular;
+    padding: 0%;
+    margin: 0%;
+}
+
+.presentacion{
+    background-color: #bdbdbd;
+    float: left;
+    text-align: center;
+}
+
+.Foto{
+    width: 250px;
+    padding: 2%; 
+    border-radius: 20%
+}
+
+.ilustracion{
+    width: 350px;
+    height: 80px;
+}
+
+h2, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+main{
+    background-color: #bdbdbd;
+    display: block;
+}
+
+#perfil p{
+    padding: 2%;
+    text-align: center;
+}
+
+.barra{
+    background-color: #212121;
+    color: white;
+    height: 40px;
+    display: flexbox;
+    padding-top: 1%;
+    font-size: large;
+}
+
+.lista{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+
+#perfil{
+    height: 500px;
+    font-size: 25px;
+}
+
+#estudios{
+    background-color: #8c8c8c;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+figure > p, figcaption, time, img{
+    text-align: center;
+}
+
+#estudios img{
+    width: 250 px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img#UNAD{
+    width: 200px;
+}
+
+img.Shaio {
+    width: 140px;
+}
+
+#estudios figure{
+    text-align: center;
+}
+img#FUAA{
+    width: 300px;
+}
+
+.equiposImagenes{
+    background-color: #666666;
+    color: #bdbdbd;
+    
+}
+
+.equiposImagenes img{
+    width: 260px;
+    height: 192.5px;
+}
+
+.equiposImagenes figure{
+    text-align: center;
+}
+
+#equiposMedicos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#imagenesEstudios {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-around;
+}
+
+#imagenesEstudios figure{
+    margin-left: 1%; 
+    display: flexbox;
+}
+
+.certificados{
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: space-around;
+    color: #bdbdbd;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.certificados figure{
+    text-align: center;
+}
+
+img#Sena, #ARIDB{
+    width: 190px;
+}
+
+.contacto{
+    background-color: #212121;
+    color: #bdbdbd;
+    padding: 5%;
+    text-align: center;
+}
+
+.contacto img{
+    width: 400px;
+}
+
+.redesSociales{
+    background-color: black;
+    color: #bdbdbd;
+    text-align: center;
+    display: flex;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: black;
+    color: #bdbdbd;
+}
+
+.titulo1{
+    background-color: #8c8c8c;
+}
+
+.titulo2{
+    background-color: #666666;
+    color: #bdbdbd;
+}
+
+.titulo3{
+    background-color: #3c3c3c;
+    color: #bdbdbd;
+}
+
+.titulo4{
+    background-color: #212121;
+    color: #bdbdbd;
+}
+
+.titulo5{
+    background-color: black;
+    color: #bdbdbd;
+}
+
+#video{
+    text-align: center;
+}
+
+video{
+    width: 800px;
+    text-align: center;
+}
+
+h2{
+    padding: 1.5%;
+}
+
+@media (max-width: 468px) {
+    h2{
+        clear: both;
+    }
+
+    .presentacion{
+        width: 100%;
+    }
+
+    .ilustracion{
+        width: 100%;
+    }
+
+    .lista{
+        font-size: 12px;
+        padding-top: 10px;       
+    }
+
+    #perfil{
+        font-size: 22px;
+        height: 50%;
+    }
+
+    #estudios{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    #equiposMedicos{
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .equiposImagenes img{
+        width: 190px;
+        height: 110px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    video{
+        width: 400px !important;
+    }
+
+    #imagenesEstudios{
+        display: block;
+        background-color: #666666;
+        height: 255px;
+    }
+
+    #imagenesEstudios > figure{
+        float: left;
+    }
+
+    #imagenesEstudios > figure >img{
+        width: 85px;
+        padding-left: 2px;
+    }
+
+    .clearfix{
+        clear: both;
+    }
+    /*h3 .certificados{
+        clear: both;
+        float: both;
+    }*/
+
+    .certificados {
+        display: block;
+    }
+
+    .certificados > figure{
+        margin-bottom: 20px;
+    }
+
+    .contacto img{
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .lista{
+        font-size: 12px;
+        padding-top: 10px;       
+    }
+
+    #perfil{
+        font-size: 24px;
+        height: 60%;
+    }
+
+    #estudios > figure{
+        padding-bottom: 20px;
+        padding-right: 14px;
+    }
+
+    #equiposMedicos > figure{
+        padding-bottom: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    #equiposMedicos > figure > img{
+        width: 180px;
+        height: 150px;
+    }
+
+    video{
+        width: 740px;
+    }
+
+    #imagenesEstudios > figure >img{
+        width: 135px !important;
+        height: 105px !important;
+    }
+
+    .contacto img{
+        width: 300px;
+    }
+}
+
+@media (max-width:1200px){
+    #imagenesEstudios > figure > img {
+        width: 188px;
+    }
+}
